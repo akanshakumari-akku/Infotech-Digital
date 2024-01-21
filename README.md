@@ -8,7 +8,6 @@
    - [Key Services and Expertise Areas](#key-services-and-expertise-areas)
    - [Team Overview](#team-overview)
    - [Website](#website)
-   - [Video Walkthrough](#video-walkthrough)
 
 2. [Technologies Used](#technologies-used)
    - [Setup Instructions](#setup-instructions)
@@ -55,16 +54,6 @@ Founded in [2024], Infotech Digital is driven by a team of passionate individual
 ## Website
 
 * Link to the live Infotech Digital website: [Visit live website](https://rajanand-132.github.io/Infotech-Digital/Infotech%20Digital/index.html)
-
-## Video Walkthrough
-
-**[Watch the Infotech Digital Video Walkthrough]()**
-
-Explore the Infotech Digital website in action! This video provides a comprehensive walkthrough of the features, user accounts, admin capabilities, and more. Join us on this visual journey through Infotech Digital.
-
-If you found this video helpful, please like, share, and subscribe for more updates and content from Infotech Digital. Happy exploring! 🌟🔧🛍️
-
-
 
 ## Technologies Used
 
