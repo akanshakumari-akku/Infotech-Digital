@@ -58,7 +58,7 @@ Founded in [2024], Infotech Digital is driven by a team of passionate individual
 
 ## Video Walkthrough
 
-**[Watch the Infotech Digital Video Walkthrough](link-to-your-video)**
+**[Watch the Infotech Digital Video Walkthrough](Infotech Digital\images\Readme Images\INFOTECH DIGITAL.mp4)**
 
 Explore the Infotech Digital website in action! This video provides a comprehensive walkthrough of the features, user accounts, admin capabilities, and more. Join us on this visual journey through Infotech Digital.
 
@@ -123,43 +123,43 @@ Take a look at some screenshots of the Infotech Digital website to get a visual 
 
 ## Homepage
 
-![Homepage](screenshots/homepage.png)
+![Homepage](Infotech Digital\images\Readme Images\Home Page.png)
 
 The homepage provides a clean and intuitive interface, showcasing featured products and categories.
 
 ## Product Details
 
-![Product Details](screenshots/product-details.png)
+![Product Details](Infotech Digital\images\Readme Images\Products.png)
 
 Explore detailed information about each product, including specifications and customer reviews.
 
 ## Shopping Cart
 
-![Shopping Cart](screenshots/shopping-cart.png)
+![Shopping Cart](Infotech Digital\images\Readme Images\Cart.png)
 
 Effortlessly manage your selected items in the shopping cart before proceeding to checkout.
 
 ## Admin Account
 
-![Admin Account](screenshots/admin-account.png)
+![Admin Account](Infotech Digital\images\Readme Images\Admin.png)
 
 Gain administrative access with the admin account, allowing for management of products, users, and site settings.
 
 ## Login
 
-![Login](screenshots/login.png)
+![Login](Infotech Digital\images\Readme Images\Login.png)
 
 Existing users can log in to access their accounts, providing a secure and convenient way to manage their profile and orders.
 
 ## Sign In
 
-![Sign In](screenshots/sign-in.png)
+![Sign In](Infotech Digital\images\Readme Images\Signin.png)
 
 Users can sign in with their credentials to access their accounts, ensuring a seamless and secure authentication process.
 
 ## Sign Up
 
-![Sign Up](screenshots/sign-up.png)
+![Sign Up](Infotech Digital\images\Readme Images\Signup.png)
 
 New users can easily sign up for an account, enabling them to enjoy personalized experiences, track order history, and set preferences.
 
