@@ -1,0 +1,935 @@
+* {
+  margin: 0;
+}
+/* header seaction css */
+
+/* nav 1st part  */
+
+header {
+  margin: 0;
+  background-color: #5f0304;
+  color: white;
+}
+#nav1 {
+  display: flex;
+  justify-content: end;
+  font-size: 17px;
+  margin-right: 15px;
+  font-weight: 700;
+}
+#nav1 > div {
+  padding: 5px;
+}
+#nav1 .fa-map-marker {
+  font-size: 22px;
+}
+
+/* nav 2nd part */
+
+.sticky {
+  position: fixed;
+  background-color: #5f0304;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+#nav2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#pincartlogin {
+  display: flex;
+  font-size: 17px;
+  font-weight: 700;
+  width: 25%;
+  padding-left: 1 rem;
+}
+#pincartlogin a {
+  color: white;
+  text-decoration: none;
+}
+#brandlogo {
+  margin-left: 2rem;
+  width: 20%;
+}
+#brandlogo img {
+  width: 60%;
+  padding-bottom: 0.7rem;
+  cursor: pointer;
+}
+#searchbar {
+  background-color: rgb(255, 255, 255);
+  height: 2.3rem;
+  border-radius: 25px;
+  margin-right: 7rem;
+  width: 37%;
+}
+#searchbar button {
+  background-color: white;
+  border: 0px solid white;
+  
+  color: gray;
+  width: 2rem;
+  border-radius: 50px;
+}
+#searchbar input {
+  width: 85%;
+  padding: 0px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
+#searchba input {
+  width: 78%;
+  padding: 10px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
+#pincartlogin div {
+  padding: 5px;
+}
+
+/* BLUE NAV BAR */
+
+#navblue {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #032455;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+#navblue a {
+  text-decoration: none;
+  color: white;
+}
+
+#navblue a:hover {
+  text-decoration: underline;
+  color: rgb(162, 250, 235);
+}
+/* top big banner */
+
+#topbigbanner {
+  width: 100%;
+}
+#topbigbanner img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/* top crausal */
+#crousal {
+  width: 100%;
+}
+#crousal img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/* crausal slide show top */
+#crouselbtnpre,
+#crouselbtnnext,
+#crouselbtnpre1,
+#crouselbtnnext1 {
+  border: 1px solid black;
+  height: 5rem;
+  width: 1.8rem;
+  background-color: rgb(157, 164, 165);
+  margin: auto;
+  color: black;
+  border: 10px;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+/* crausal product top */
+
+#crousalproduct p {
+  color: #003380;
+  font-size: 20px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
+#crousalproduct img {
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 2px 2px 4px rgba(111, 113, 235, 0.2);
+}
+#crousalproduct img:hover {
+  transform: scale(1.2); /* Increase the scale factor to zoom in */
+border-radius: 15px; /* Add border-radius for rounded corners */
+}
+#crousalproduct h6 {
+  font-size: 15px;
+  margin: 4px;
+}
+#crousalproduct h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 4px;
+}
+#procra1 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#procra1 > div {
+  padding: 0 1rem;
+  width: 15%;
+  box-shadow: 20px 20px 40px rgba(1, 44, 44, 0.2);
+}
+
+#procra1 > div:hover {
+  background-color: #e6eef0;
+  cursor: pointer;
+}
+
+#procra2 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#procra2 > div {
+  padding: 0 1rem;
+  width: 15%;
+  box-shadow: 20px 20px 40px rgba(1, 44, 44, 0.2);
+}
+
+#procra2 > div:hover {
+  background-color: #e6eef0;
+  cursor: pointer;
+}
+
+.offerdiv {
+  color: green;
+  border: 1px solid green;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* crausal product top */
+.h4title {
+  margin-left: 1.5rem;
+  font-weight: 400;
+  margin-top: 1.3rem;
+}
+#crousalproductTelivision p {
+  color: #003380;
+  font-size: 20px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
+#crousalproductTelivision img {
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 2px 2px 4px rgba(111, 113, 235, 0.2);
+}
+#crousalproductTelivision img:hover {
+  transform: scale(1.2); /* Increase the scale factor to zoom in */
+border-radius: 15px; /* Add border-radius for rounded corners */
+}
+#crousalproductTelivision h6 {
+  font-size: 15px;
+  margin: 4px;
+}
+#crousalproductTelivision h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 4px;
+}
+#proTeli1 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#proTeli1 > div {
+  padding: 0 1rem;
+  width: 15%;
+  box-shadow: 20px 20px 40px rgba(1, 44, 44, 0.2);
+}
+
+#proTeli1 > div:hover {
+  background-color: #e6eef0;
+  cursor: pointer;
+}
+
+#proTeli2 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#proTeli2 > div {
+  padding: 0 1rem;
+  width: 15%;
+  box-shadow: 20px 20px 40px rgba(1, 44, 44, 0.2);
+}
+#proTeli2 > div:hover {
+  background-color: #e6eef0;
+  cursor: pointer;
+}
+
+/* category product images 8 pics 2row */
+#categorypics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#categorypics div {
+  width: 24%;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 20px 20px 40px rgba(3, 32, 32, 0.2);
+}
+
+#categorypics div:hover {
+  background-color: #e6eef0;
+  cursor: pointer;
+}
+#categorypics img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+#categorypics img:hover {
+  transform: scale(1.2); /* Increase the scale factor to zoom in */
+  
+}
+
+
+/* iphone crousal banner */
+
+#crousaliphone {
+  width: 100%;
+}
+#crousaliphone img {
+  width: 100%;
+}
+
+/* brand promise flex*/
+.brandpromiseH4 {
+  text-align: center;
+  color: #003394;
+}
+.brandpromiseH4 h4 {
+  font-size: 25px;
+  margin: 9px 0;
+}
+#promisebrand H5 {
+  font-size: 17px;
+  color: #003394;
+  margin-bottom: 0;
+}
+
+#promisebrand p {
+  font-size: 17px;
+  margin-top: 0;
+}
+#promisebrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#promisebrand div {
+  width: 24%;
+  background-color: #cee5f3;
+  height: 7rem;
+  border-radius: 8px;
+}
+#promisebrand img {
+  width: 12%;
+  margin-top: 0.3rem;
+}
+
+/* monitor carousal flex  & dailyuse & kodak tv*/
+.tvheading a,
+.watchheading a,
+.Dailyuseheading a,
+.iphoneheading a,
+.monitorheading a,
+#pics8 a,
+#crousalproductTelivision a,
+#crousalproduct a {
+  text-decoration: none;
+  color: black;
+}
+#monitor,
+#dailyuse,
+#tv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#monitorcarousal,
+#dailyusecarousal,
+#tvcarousal {
+  width: 73%;
+}
+
+#monitors1,
+#monitors2,
+#dailyuse1,
+#dailyuse2,
+#tv1,
+#tv2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#monitors1 > div,
+#monitors2 > div,
+#dailyuse1 > div,
+#dailyuse2 > div,
+#tv1 > div,
+#tv2 > div {
+  width: 16%;
+  box-shadow: 20px 20px 40px rgba(1, 44, 44, 0.2);
+}
+
+#monitors1 > div:hover,
+#monitors2 > div:hover,
+#dailyuse1 > div:hover,
+#dailyuse2 > div:hover,
+#tv1 > div:hover,
+#tv2 > div:hover {
+    background-color: #e6eef0;
+    cursor: pointer;
+}
+
+
+
+#monitors1 > div > div,
+#monitors2 > div > div,
+#dailyuse1 > div > div,
+#dailyuse2 > div > div,
+#tv1 > div > div,
+#tv2 > div > div {
+  margin-top: 10px;
+}
+#monitors1 img,
+#monitors2 img,
+#dailyuse1 img,
+#dailyuse2 img,
+#tv1 img,
+#tv2 img {
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(111, 113, 235, 0.2);
+}
+
+#monitorcarousal img,
+#dailyusecarousal img,
+#tvcarousal img {
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(111, 113, 235, 0.2);
+}
+
+#monitorcarousalside,
+#dailyusecarousalside,
+#tvcarousalside {
+  width: 24%;
+}
+#monitorcarousalside img,
+#dailyusecarousalside img,
+#tvcarousalside img {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(111, 113, 235, 0.2);
+  cursor: pointer;
+}
+
+#monitorcarousalside img:hover,
+#dailyusecarousalside img:hover,
+#tvcarousalside img:hover {
+  transform: scale(1.1); /* Increase the scale factor to zoom in */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+#monitorcarousal p,
+#dailyusecarousal p,
+#tvcarousal p {
+  color: #003380;
+  font-size: 17px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+#monitorcarousal img:hover,
+#dailyusecarousal img:hover,
+#tvcarousal img:hover {
+  transform: scale(1.2); /* Increase the scale factor to zoom in */
+border-radius: 15px; /* Add border-radius for rounded corners */
+}
+#monitorcarousal h6,
+#dailyusecarousal h6,
+#tvcarousal h6 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+#monitorcarousal h5,
+#dailyusecarousal h5,
+#tvcarousal h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+/* 25% pic of iphone&watch and iphone14 & smartwatch 75%  carousal flex  */
+
+#iphone14,
+#watch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#iphone14carousal,
+#watchcarousal {
+  width: 73%;
+}
+
+#iphone14-1,
+#iphone14-2,
+#watch1,
+#watch2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#iphone14-1 > div,
+#iphone14-2 > div,
+#watch1 > div,
+#watch2 > div {
+  width: 16%;
+  box-shadow: 20px 20px 40px rgba(1, 44, 44, 0.2);
+}
+
+#iphone14-1 > div:hover,
+#iphone14-2 > div:hover,
+#watch1 > div:hover,
+#watch2 > div:hover {
+  background-color: #e6eef0;
+  cursor: pointer;
+}
+
+#iphone14-1 > div > div,
+#iphone14-2 > div > div,
+#watch1 > div > div,
+#watch2 > div > div {
+  margin-top: 10px;
+}
+#iphone14-1 img,
+#iphone14-2 img,
+#watch1 img,
+#watch2 img {
+  width: 100%;
+}
+
+#iphone14carousal img,
+#watchcarousal img {
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(111, 113, 235, 0.2);
+}
+
+#iphone14carousalside,
+#watchcarousalside {
+  width: 24%;
+  margin-top: 0.7rem;
+}
+#iphone14carousalside img,
+#watchcarousalside img {
+  width: 100%;
+  height: 380px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#iphone14carousalside img:hover,
+#watchcarousalside img:hover{
+  transform: scale(1.1); /* Increase the scale factor to zoom in */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+#iphone14carousal p,
+#watchcarousal p {
+  color: #003380;
+  font-size: 17px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+#iphone14carousal img:hover,
+#watchcarousal img:hover {
+  transform: scale(1.2); /* Increase the scale factor to zoom in */
+  border-radius: 15px; /* Add border-radius for rounded corners */
+}
+#iphone14carousal h6,
+#watchcarousal h6 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+#iphone14carousal h5,
+#watchcarousal h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+/* explore the range of product */
+#diffproduct {
+  text-align: center;
+  background-color: #f7f7f7;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+#diffproduct h4 {
+  padding-top: 1rem;
+}
+#diffproduct h3 {
+  margin-top: 3rem;
+  font-size: 21px;
+  cursor: pointer;
+}
+#range1,
+#range2 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#range1 > div,
+#range2 > div {
+  padding: 0 1rem;
+  width: 18%;
+  cursor: pointer;
+}
+
+#range1 > div:hover,
+#range2 > div:hover{
+  transform: scale(1.1); /* Increase the scale factor to zoom in */
+  border-radius: 15px; /* Add border-radius for rounded corners */
+}
+.viewall {
+  border: 0px solid white;
+  border-radius: 25px;
+  padding: 5px 11px;
+  background-color: #003380;
+  width: 8.5%;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.carousel-inner a {
+  color: black;
+  text-decoration: none;
+}
+
+/* footer section */
+.footer {
+  background-color: #080c13;
+  color: white;
+  padding-bottom: 1.7rem;
+}
+.footerdetails {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footerdetails > div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.footerdetails a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 3px;
+}
+.footerdetails h3 {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2px;
+}
+
+.playstorelogo {
+  display: flex;
+  width: 57%;
+  margin-left: 1.2rem;
+  justify-content: space-evenly;
+}
+.playstorelogo h3 {
+  font-size: 20px;
+}
+
+.follow {
+  width: 38%;
+}
+.playstore {
+  width: 50%;
+}
+.playstore img {
+  width: 28%;
+}
+.disclaimer {
+  background-color: #131c2b;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 0.5rem 0;
+}
+.disclaimer h3 {
+  font-size: 12px;
+  font-style: normal;
+}
+.line {
+  text-decoration: underline;
+}
+.thin {
+  color: gray;
+}
+
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+/* map */
+.nksha{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.type{
+  text-align: center;
+margin-top: 5rem;
+}
+.type input{
+  margin-top: 1rem;
+  min-height: 1.5rem;
+  padding-left: 1rem;
+}
+#redc{
+  color: #e42529;
+  text-decoration: underline;
+}
+#ms{
+  padding: 8px 28px;
+  background-color: #e42529;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0px solid white;
+  border-radius: 3px;
+  margin-left: 1rem;
+}
+#ms:hover{
+  background-color: #003380;
+}
+.location a{
+  text-decoration: none;
+  color: white;
+}
+.location a:hover{
+  color:rgb(206, 245, 209);
+}
+
+/* registration page2 */
+
+.signup2box{
+  width: 45%;
+  margin:1rem auto;
+ padding: 2rem;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ height: 45rem;
+}
+
+.signup2box input{
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  height: 2.2rem;
+}
+
+.signup2box p{
+  font-size: 15px;
+  margin: 0;
+}
+.end{
+  text-align: center;
+  font-size: 15px;
+margin-top: 1rem;
+}
+.end a{
+  font-size: 20px;
+  color: #e42529;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left:5px;
+}
+.signup2box h3{
+  margin-bottom: 0px;
+}
+.signup2box #signup{
+  background-color: #e42529;
+  color: white;
+  font-weight: 700;
+  border: 0px solid white;
+  padding: 15px auto;
+}
+
+.signup2box #signup:hover{
+  background-color: #003380;
+}
+
+.mobileregister{
+ display:flex;
+ width: 100%;
+ justify-content: space-evenly;
+}
+
+.mobileregister img{
+  width: 100%;
+}
+
+.mobileregister .banner1{
+  width: 47%;
+}
+
+.mobileregister .parent1{
+  width: 47%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin:2rem 0;
+  padding-top: 2rem;
+}
+
+.mobileregister input{
+  width: 80%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+#btnx{
+  background-color: #e42529;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+#btnx:hover{
+  background-color: #003380;
+}
+
+.loginbox{
+  width: 50%;
+  margin:2rem auto;
+  padding: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.loginbox input{
+  width: 100%;
+}
+.head3{
+  text-align: center;
+}
+#signn{
+  background-color: #e42529;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+#signn:hover{
+  background-color: #003380;
+}
+
+
+/* admin page css  */
+
+
+#adminform{
+  width: 60%;
+  margin:2rem auto;
+  padding: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+#adminform  h3{
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+#adminform input{
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#adminform button{
+  background-color: #e42529;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+#adminform button:hover{
+  background-color: #357de9;
+}
+
+#addnewdata, #seedata, #adminturn{
+  cursor: pointer;
+}
+#adminturn a{
+text-decoration: none;
+color: white;
+}
