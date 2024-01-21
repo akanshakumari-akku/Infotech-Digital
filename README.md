@@ -58,7 +58,7 @@ Founded in [2024], Infotech Digital is driven by a team of passionate individual
 
 ## Video Walkthrough
 
-**[Watch the Infotech Digital Video Walkthrough](Infotech Digital\images\Readme Images\INFOTECH DIGITAL.mp4)**
+**[Watch the Infotech Digital Video Walkthrough]()**
 
 Explore the Infotech Digital website in action! This video provides a comprehensive walkthrough of the features, user accounts, admin capabilities, and more. Join us on this visual journey through Infotech Digital.
 
@@ -123,43 +123,43 @@ Take a look at some screenshots of the Infotech Digital website to get a visual 
 
 ## Homepage
 
-![Homepage](Infotech Digital\images\Readme Images\Home Page.png)
+![Homepage](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/ace5e84a-64d6-4f01-a74a-36da31b391ff)
 
 The homepage provides a clean and intuitive interface, showcasing featured products and categories.
 
 ## Product Details
 
-![Product Details](Infotech Digital\images\Readme Images\Products.png)
+![Product Details](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/e96ff714-bec5-431f-9a2c-72459acda374)
 
 Explore detailed information about each product, including specifications and customer reviews.
 
 ## Shopping Cart
 
-![Shopping Cart](Infotech Digital\images\Readme Images\Cart.png)
+![Shopping Cart](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/052cbeaa-60d5-4a6c-9f73-1d97bbc870e8)
 
 Effortlessly manage your selected items in the shopping cart before proceeding to checkout.
 
 ## Admin Account
 
-![Admin Account](Infotech Digital\images\Readme Images\Admin.png)
+![Admin Account](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/613ab498-4fea-425c-b534-1b93560cbb7d)
 
 Gain administrative access with the admin account, allowing for management of products, users, and site settings.
 
 ## Login
 
-![Login](Infotech Digital\images\Readme Images\Login.png)
+![Login](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/66f0cfb3-dd86-4d94-98db-1794e43c0ad0)
 
 Existing users can log in to access their accounts, providing a secure and convenient way to manage their profile and orders.
 
 ## Sign In
 
-![Sign In](Infotech Digital\images\Readme Images\Signin.png)
+![Sign In](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/30f02c63-e4b7-4a86-ac83-b5779dffcc9c)
 
 Users can sign in with their credentials to access their accounts, ensuring a seamless and secure authentication process.
 
 ## Sign Up
 
-![Sign Up](Infotech Digital\images\Readme Images\Signup.png)
+![Sign Up](https://github.com/RajAnand-132/Infotech-Digital/assets/83199724/dae7728f-0d5f-4da8-a2b6-ebedffe2b00c)
 
 New users can easily sign up for an account, enabling them to enjoy personalized experiences, track order history, and set preferences.
 
