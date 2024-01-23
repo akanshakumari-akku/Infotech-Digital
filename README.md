@@ -53,7 +53,7 @@ Founded in [2024], Infotech Digital is driven by a team of passionate individual
 
 ## Website
 
-* Link to the live Infotech Digital website: [Visit live website](https://rajanand-132.github.io/Infotech-Digital/Infotech%20Digital/index.html)
+* Link to the live Infotech Digital website: [Visit live website](https://akanshakumari-akku.github.io/Infotech-Digital/Infotech%20Digital/index.html)
 
 ## Technologies Used
 
